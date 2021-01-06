@@ -1,0 +1,147 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+ul{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-align: right;  
+}
+li {display: inline-block;
+    margin-right: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 50px;
+}
+.font{
+   
+     color:rgb(255, 0, 106); 
+}
+.half-with{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+    margin: 30px;
+}
+.inquiry{
+    position: relative;
+    text-align: center;
+    
+    }
+.inquiry img{width: 60%;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    padding-bottom: 100px;
+    
+    }
+.cheking{
+        position:absolute;
+        bottom: 60%;
+        left: 22%;
+        font-size: 40px;
+        color: aqua;
+    }
+.inquiry-button{
+        position:absolute;
+        bottom: 60%;
+        right: 23%; 
+    }
+.link-button{
+        text-decoration: none;
+        padding: 10px 20px;
+        color: white;
+        background-image: linear-gradient( 45deg, rgb(221, 22, 39),rgb(255, 71, 126));
+        border-radius: 5px;
+    }
+
+img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.highlit{
+    color: #ff1a1a;
+}
+.center{
+    text-align: center;
+    font-size: 40px;
+}
+.with{
+    width: 28%;
+   padding: 20px;
+    float: left;
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 7px;
+}
+h2{
+    color:rgb(255, 0, 255);
+}
+
+.container{
+    margin-left: 10px;
+}
+
+.text-alin{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.half-hight{
+    width:2%;
+}
+.contact-form{
+    
+    margin: 80px auto;
+    width: 350px;
+    text-align: center;
+    box-shadow: 5px 5px 30px gray;
+}
+.contact-form h2{
+    background: #efefef;
+    margin-top: 0;
+    padding: 10px;
+
+}
+.contact-form input{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: 8px;
+
+}
+.contact-form textarea{
+    width: 90%;
+    margin: 5px auto;
+    padding-left: 20px;
+    height: 80px;
+}
+.submit-btn{
+    cursor: pointer;
+    width: 150px !important;
+    margin-left: 5px !important;
+}
+.input-field{
+    padding: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
